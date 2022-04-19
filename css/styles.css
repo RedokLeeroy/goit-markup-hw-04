@@ -298,9 +298,17 @@ color: var(--brand-color-blue);
 .team-item:last-child{
     margin-right: 0px;
 }
-.hiddenh2 {
-    position: fixed;
-  transform: scale(0);
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 .description-spec{
 padding: 30px;
@@ -400,7 +408,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-right: 30px;
 }
 .client-item {
-    fill: var(--brand-color-gray);
+    fill: #AFB1B8;
 }
 
 .client-li:hover .client-item,
@@ -466,6 +474,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 .footer-flex{
     display: flex;
     justify-content: start;
+    align-items: baseline;
 }
 .footer-container{
     margin-right: 70px;
