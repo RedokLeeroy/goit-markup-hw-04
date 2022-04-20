@@ -400,7 +400,13 @@ margin-left: auto;
 .flex-clients{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+
+.clients-li{
+    margin-right: 30px;
+}
+.clients-li:last-child{
+    margin-right: 0px;
 }
 
 .client-link{
